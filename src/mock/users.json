@@ -1,0 +1,18 @@
+[{
+        "id": "001",
+        "username": "alva",
+        "password": "123",
+        "nickname": "alva小机灵"
+    },
+    {
+        "id": "002",
+        "username": "cc123",
+        "password": "12345678",
+        "nickname": "蜡笔小心眼子"
+    }, {
+        "id": "003",
+        "username": "dd333",
+        "password": "123",
+        "nickname": "樱桃小完犊子"
+    }
+]
