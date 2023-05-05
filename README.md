@@ -1,24 +1,12 @@
-# lingxi
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+灵犀前端互动社
+本社使用Vue框架搭建，具有登录、注册、文章分类、查看文章、评论、点赞、收藏、消息推送等基本功能，以下是具体的构思：
+一、技术栈
+Vue框架、Vue-Router和Vuex搭建前端应用，Axios进行网络请求，MockJS模拟接口数据。前端UI库选择ElementUI。
+二、应用
+1.登录和注册：首页弹窗完成登录或注册才可点赞收藏和回帖。
+2.首页展示：文章分类浏览。列表根据时间排序，展示标题、作者、发布时间、点赞数和收藏数等基本信息。
+3.文章详情：查看文章的详细内容，对文章进行点赞、收藏和评论。评论支持表情、图片和文字。
+4.消息推送：系统会在有新评论或新文章时自动向用户发送通知，提醒用户了解最新动态。通知通过页面的弹窗形式进行展示。用户可以点击通知跳转到对应的页面，查看最新内容。
+5.数据存储：应用需要存储用户、文章、评论、点赞和收藏等相关数据。可以使用浏览器的本地存储进行存储。在使用本地存储时，需要注意数据的加密和安全性。
+三、编码
+网站位置：https://alva.ltd/linxi/html
